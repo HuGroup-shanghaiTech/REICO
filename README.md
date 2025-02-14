@@ -7,11 +7,11 @@ REICO (Random Exploration via Imaginary Chemical Optimization) is a data samplin
 
 EMLP is the resulting MLP from a REICO generated dataset. By focusing on element-element interactions rather than system-specific configurations, EMLP achieves both generality and reactivity without requiring targeted sampling.
 
-This repository contains a step by step tutorial of implementation of REICO and EMLP framework developed by Changxi Yang, Chengyu Wu, Wenbo Xie, and the group of Peijun Hu at Shanghaitech University.
+This repository contains the implementation of REICO developed by Changxi Yang, Chengyu Wu, Wenbo Xie, and the group of Peijun Hu at Shanghaitech University.
 
 In principle, RECIO can be easily integrated with any state-of-the-art atomistic ML models. In our paper, we used the [Nequip code](https://github.com/mir-group/nequip) as the ML model.
 
-This repository contains the Ag-Pd-C-H-O gerneal and reactive EMLP model, which can be used as the computational engine for calculations in heterogeneous catalysis that involves the Ag, Pd, C, H, O.
+This repository also contains the Ag-Pd-C-H-O gerneal and reactive EMLP model, which can be used as the computational engine for calculations in heterogeneous catalysis that involves the Ag, Pd, C, H, O. To use the model please download the [Nequip code](https://github.com/mir-group/nequip).
 
 ### Reference
 
