@@ -9,7 +9,7 @@ EMLP is the resulting MLP from a REICO generated dataset. By focusing on element
 
 This repository contains a step by step tutorial of implementation of REICO and EMLP framework developed by Changxi Yang, Chengyu Wu, Wenbo Xie, and the group of Peijun Hu at Shanghaitech University.
 
-In principle, RECIO can be easily integrated with any state-of-the-art atomistic ML models. In this tutorial, we are using the [Nequip code](https://github.com/mir-group/nequip) as the ML model.
+In principle, RECIO can be easily integrated with any state-of-the-art atomistic ML models. In our paper, we used the [Nequip code](https://github.com/mir-group/nequip) as the ML model.
 
 This repository contains the Ag-Pd-C-H-O gerneal and reactive EMLP model, which can be used as the computational engine for calculations in heterogeneous catalysis that involves the Ag, Pd, C, H, O.
 
